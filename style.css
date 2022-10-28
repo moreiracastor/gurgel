@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Silkscreen&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 15vh;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+
+    padding: 30px;
+}
+
+nav {
+    border: 2px dotted ;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+
+    font-family: 'Silkscreen', cursive;
+
+    padding-right: 6px;
+    margin: 10px;
+}
+
+main {
+    margin: 2vw;
+}
